@@ -55,3 +55,4 @@
 enum RGBColor { UNDEF, RED, ORANGE, YELLOW, GREEN,  BLUE, PURPLE, WHITE, BLACK };
 
 #endif // _CONFIG_H
+
