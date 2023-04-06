@@ -54,4 +54,4 @@
 // We will use the below enum to define different RGB Colours
 enum RGBColor { UNDEF, RED, ORANGE, YELLOW, GREEN,  BLUE, PURPLE, WHITE, BLACK };
 
-#endif
+#endif // _CONFIG_H
