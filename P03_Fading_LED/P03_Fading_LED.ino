@@ -25,12 +25,12 @@ int fadeAmount = 5;  // how many points to fade the LED by
 
 // the setup routine runs once when you press reset:
 void setup() {
-  // declare pin 9 to be an output:
+  // declare pin 10 to be an output:
   pinMode(LED_BUILTIN, OUTPUT);
 }
 
 void loop() {
-  // set the brightness of pin 9:
+  // set the brightness of pin 10:
   analogWrite(LED_BUILTIN, brightness);
 
   // change the brightness for next time through the loop:
