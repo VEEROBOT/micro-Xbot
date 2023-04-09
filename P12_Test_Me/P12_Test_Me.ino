@@ -67,6 +67,9 @@ void setup()
   pinMode(EN2, OUTPUT);
   pinMode(IN1, OUTPUT);
   pinMode(IN2, OUTPUT);
+  pinMode(9, OUTPUT);
+  digitalWrite(9, LOW);  //Buzzer Off
+  
   Serial.println();
   Serial.println("Use IR Remote to check various sensors by pressing buttons 1 through 9");
   Serial.println("For Bluetooth, upload Bluetooth Program");
@@ -359,7 +362,7 @@ void translateIR()
       break;
     case FOUR:
       Serial.println("Enjoy the Colours");
-      theaterChaseRainbow(50);
+      theaterChaseRainbow(25);
       break;
     case FIVE:
       Serial.println("How bright is it outside?");
